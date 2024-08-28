@@ -14,7 +14,9 @@ I have previously completed a number of different CFG coding courses, as well as
 I am planning to use this repository to submit my various assignments, this profile as a whole may also be used as a resource for new information I learn along my coding journey. 
 
 <h3>Assignment 1</h3>
+
 I have created both a [.gitignore](/.gitignore) and a [requirements.txt](/requirements.txt) file within my main repository. 
+
 
 > [!TIP]
 > I have 2 cats (who are the best), they are <sup>Felix</sup> and <sub>Moose</sub> 🖤🤍🖤
