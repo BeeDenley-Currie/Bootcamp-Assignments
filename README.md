@@ -17,7 +17,7 @@ files within my main repository. </br>
 In this case I have chosen a standard .gitignore file for python, but the .gitignore file is not mandatory when creating a repo - just a good idea!
 
 > [!TIP]
-> I have 2 cats (who are the best), they are ^Felix^ and <sub>Moose</sub> 🖤🤍🖤
+> I have 2 cats (who are the best), they are <sup>Felix</sup> and <sub>Moose</sub> 🖤🤍🖤
 >
 > <img src="https://github.com/user-attachments/assets/b48ee013-c50a-4e4a-b357-22309eed45ce" width="200" /> <img src="https://github.com/user-attachments/assets/0f43f37b-9d3f-47dd-ac84-9bbf35a47edd" width="200" />
 
