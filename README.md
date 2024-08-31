@@ -34,7 +34,7 @@ I am planning to use this repository to submit my various assignments, this prof
 
 Within this repository I have also created a :
 - [X] [.gitignore](/.gitignore) file
-> .gitignore files are important because they hide certain files from `git status` and means that these files are not selected using commands like `git add`. Depending on what the repository is being used for, there may be a large amount of data and code for different libraries used in the files but which you wouldn't want to download each time, as it will bloat the downloads.</br>
+> .gitignore files are important because they hide certain files from `git status` and means that these files are not selected using commands like `git add`. Depending on what the repository is being used for, there may be a large amount of data and code for different libraries used in the files but which you wouldn't want to download each time, as it will bloat the downloads. It can be set to ignore personal information, for example if there's a file with login details.</br>
 In this case I have chosen a standard .gitignore file for python, but the .gitignore file is not mandatory when creating a repo - just a good idea!
 
 
