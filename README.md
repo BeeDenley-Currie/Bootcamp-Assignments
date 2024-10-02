@@ -11,7 +11,8 @@ My name is Bee, and I'm on the *Data Science* pathway of the Autumn 2024 CFGdegr
 > <img src="https://github.com/user-attachments/assets/b48ee013-c50a-4e4a-b357-22309eed45ce" width="200" /> <img src="https://github.com/user-attachments/assets/0f43f37b-9d3f-47dd-ac84-9bbf35a47edd" width="200" />
 
 I am planning to use this repository to submit my various assignments, this profile as a whole may also be used as a resource for new information I learn along my coding journey. 
-
+<details>
+  <summary>Assignment 1</summary>
 <h3>Assignment 1</h3>
 
 1. I created this repository on Github, and then cloned it to my local repository.  
@@ -36,5 +37,42 @@ Within this repository I have also created a :
 - [X] [.gitignore](/.gitignore) file
 > .gitignore files are important because they hide certain files from `git status` and means that these files are not selected using commands like `git add`. Depending on what the repository is being used for, there may be a large amount of data and code for different libraries used in the files but which you wouldn't want to download each time, as it will bloat the downloads. It can be set to ignore personal information, for example if there's a file with login details.</br>
 In this case I have chosen a standard .gitignore file for python, but the .gitignore file is not mandatory when creating a repo - just a good idea!
+</details>
+
+<details open>
+<summary>Assignment 3</summary>
+  <h3>Assignment 3</h3>
+
+### Creative Scenario
+I am creating a (fictional!) database to help my animal infectious disease laboratory (fictionally!) keep track of our testing needs, and our orders from customers.
+I have created core tables: virus information, species, tests offered, and sample types. Much of my data is just for the back-end, but needs to be normalised into different tables so that we can make updates to naming without ruining the whole DB!
+There are then additional tables for susceptibility for animals, and acceptable tests for sample types, which can be updated as a situation develops/more research is done.
+Further, I have a customers table, and a combination of different information all comes together in the orders table.
+
+- [X] I have inserted values, as well as written queries to alter/update portions of the original tables, using constraints such as NOT NULL and DEFAULT. Data types include DATE, ENUM, VARCHAR, and INT. Order ID is an AUTO INCREMENT value.
+- [X] I have created views which join different tables, to make the information much more human-readable, using INNER JOIN
+- [X] Using LEFT JOIN, I am able to discern if there are samples with no accepted tests
+- [X] I wanted to be able to find where an order did/didn't meet test/sample requirements for the virus. I found a couple of different methods, first using a LEFT JOIN and a WHERE EXISTS subquery but-
+- [X] I then created a Stored Function so that it will be more obvious which ones are possible/impossible to fulfill.  
+- [X] I was able to fix spelling mistakes, and because of the normalisation this means changes can be made to the string without ruining other dependent tables.
+- [X] I wanted to find a way to show the due date of an order, with 2 different interval periods depending on customer type. I did this using subqueries, CASE, DATE_ADD, and a hefty dose of trial and error!
+- [X] I've used aggregate functions to provide information on how many species are susceptible for each virus (handy for deciding what research will have the most impact) using COUNT, and to find the oldest order for each customer in the UK using MIN. I found it difficult to give good examples because my database is so text heavy!
+- [X]  It's important to be able to DELETE data from a table without it messing everything else up, so I demonstrated that I can remove from a table without issue
+
+As far as future work:
+- [ ]  We could see what viruses are requested for testing the most, to give insights into what stock levels we need for different assays
+
+A Database like this is useful within animal virology/laboratory testing fields, but the same concept can of course be applied to may different commercial science areas.
 
 
+- Lines <b>1 - 230</b> of my code are creating the database and entering the values
+- Lines <b>231 - 278</b> demonstrate <u>joins</u>, by creating <u>views</u> and during select queries
+- Lines <b>279 - 310</b> create and demo a <u>stored function</u> (proud of this bit!)
+- Lines <b>311 - 357</b> show off a couple of additional <u>in-built functions</u>, and updating tables based on another table's values (also really proud of this bit!)
+- Lines <b>358 - 372</b> are the <u>aggregate functions</u>. 
+- Lines <b>373 - 378</b> are a <u>delete</u> query, and a further query to prove it worked
+
+This is an EER of my relational database:
+![EEV 220924](https://github.com/user-attachments/assets/3dbc1459-6b24-4b32-808c-43a79325a7aa)
+
+</details>
