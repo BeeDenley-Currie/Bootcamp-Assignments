@@ -1,15 +1,9 @@
-# CFG-Assignments
-## `Hello World`! Welcome to my readme! 👋
+# Bootcamp-Assignments
 
-My name is Bee, and I'm on the *Data Science* pathway of the Autumn 2024 CFGdegree. I'm being sponsored by [DSTL](https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory).
+My name is Bee, and I'm on the *Data Science* pathway of the a Bootcamp, sponsored by [DSTL](https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory).
 
 - I have previously completed a number of different CFG coding courses, as well as making the most of external learning opportunities
   
-> [!NOTE]
-> I have 2 cats (who are the best), they are <sup>Felix</sup> and <sub>Moose</sub> 🖤🤍🖤
->
-> <img src="https://github.com/user-attachments/assets/b48ee013-c50a-4e4a-b357-22309eed45ce" width="200" /> <img src="https://github.com/user-attachments/assets/0f43f37b-9d3f-47dd-ac84-9bbf35a47edd" width="200" />
-
 I am planning to use this repository to submit my various assignments, this profile as a whole may also be used as a resource for new information I learn along my coding journey. 
 <details>
   <summary>Assignment 1</summary>
