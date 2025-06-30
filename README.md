@@ -1,11 +1,11 @@
 # Bootcamp-Assignments
 
-My name is Bee, and I'm on the *Data Science* pathway of the a Bootcamp, sponsored by [DSTL](https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory).
+My name is Bee, and I have recently completed the *Data Science* pathway of an intensive Bootcamp, sponsored by [DSTL](https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory).
 
 - I have previously completed a number of different CFG coding courses, as well as making the most of external learning opportunities
   
-I am planning to use this repository to submit my various assignments, this profile as a whole may also be used as a resource for new information I learn along my coding journey. 
-<details>
+I have removed mentions of the bootcamp providers name. 
+<details open>
   <summary>Assignment 1</summary>
 <h3>Assignment 1</h3>
 
